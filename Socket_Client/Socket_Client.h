@@ -7,10 +7,10 @@ class tcp_client
 	
 private:
 	std::string m_ip;
-	int			m_port;
-	WSADATA		m_WinsockData;
-	WORD		m_Version = MAKEWORD(2, 2);
-	SOCKET		m_Socket;
+	int	    m_port;
+	WSADATA	    m_WinsockData;
+	WORD	    m_Version = MAKEWORD(2, 2);
+	SOCKET	    m_Socket;
 	sockaddr_in m_hint;
 	std::string m_TEST;
 public:
